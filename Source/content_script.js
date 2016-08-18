@@ -23,11 +23,11 @@ function replaceText(v)
 {
     //Donald Tr
     v = v.replace(/\bDonald Trump\b/g, "The Chosen One");
-    v = v.replace(/\bTrump\b/g, "The Chosen One");
+    //v = v.replace(/\bTrump\b/g, "The Chosen One");
 
     // The Great Recession
-    //v = v.replace(/\bGreat Recession\b/g, "Time of Shedding and Cold Rocks");
-    //v = v.replace(/\bgreat recession\b/g, "time of shedding and cold rocks");
+    v = v.replace(/\bGreat Recession\b/g, "Time of Shedding and Cold Rocks");
+    v = v.replace(/\bgreat recession\b/g, "time of shedding and cold rocks");
 
     return v;
 }
