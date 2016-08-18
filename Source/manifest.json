@@ -1,18 +1,18 @@
 {
 	"manifest_version": 2,
 
-	"name": "Trump to God",
+	"name": "The Chosen Trump",
     "short_name": "Hail Trump",
-	"description": "Replaces the text 'Trump' with epithets.",
+	"description": "Replaces the text 'Trump' with Anakin Skywalker.",
 	"author": "Henry Shen",
 	"version": "1.0",
 
 	"icons": {
-		"32": "/icons/trump2.png"
+		"32": "/icon/trump2.png"
 	},
 
 	"browser_action": {
-		"default_icon": "/icons/trump2.png"
+		"default_icon": "/icon/trump2.png"
 	},
 
 	"content_scripts":
